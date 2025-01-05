@@ -1,0 +1,728 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title> Stanley Software Eng. Portfolio </title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="description" content="app landing page" />
+        <meta name="keywords" content="app, landing page, portfolio" />
+        <meta name="developer" content="Stanley">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/plugins/css/bootstrap.min.css">
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="../assets/plugins/css/animate.css">
+    <!-- Owl Carousel CSS-->
+    <link rel="stylesheet" href="../assets/plugins/css/owl.css">
+
+
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+
+
+
+        <!-- load external font -->
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet" />
+
+        <!-- EnlighterJS CSS - Just Include a single theme !-->
+        <link rel="stylesheet" href="../assets/plugins/codeenlight/dist/enlighterjs.min.css" />
+</head>
+
+<body class="dark-vertion black-bg">
+    <!--
+        ===================
+           NAVIGATION
+        ===================
+        -->
+    <header class="black-bg mh-header mh-fixed-nav nav-scroll mh-xs-mobile-nav" id="mh-header">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg mh-nav nav-btn">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html#mh-about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html#mh-skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html#mh-experience">Experiences</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html#mh-portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html#mh-pricing">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html#mh-contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--
+        ===================
+            ABOUT 
+        ===================
+        -->
+
+
+    <!-- home 2 -->
+    <section class="mh-home image-bg home-2-img" id="mh-home">
+        <div class="img-foverlay img-color-overlay">
+            <div class="container">
+                <div class="row section-separator">
+                    <div class="mh-page-title text-center col-sm-12">
+                        <h2>Handwritten Digit Recognition</h2>
+                        <p class="d-none">It is a long established fact that a reader will be <br>
+                            distracted by the readable content of a page when looking at its layout.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mh-blog">
+        <div class="container">
+            <div class="row section-separator">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <div class="mh-blog-post-info">
+                                <ul>
+                                    <li><strong>Post On</strong><a href="">08.11.22</a></li>
+                                    <li><strong>By</strong><a href="">Stanley</a></li>
+                                </ul>
+                            </div>
+                            <div class="mh-blog-item dark-bg blog-single">
+                                <p>
+                                    To make machines more intelligent, the developers are diving into machine learning and deep learning techniques. A human learns to perform a task by practicing and repeating it again and again so that it memorizes how to perform the tasks. Then the neurons in his brain automatically trigger and they can quickly perform the task they have learned. Deep learning is also very similar to this. It uses different types of neural network architectures for different types of problems. For example – object recognition, image and sound classification, object detection, image segmentation, etc.
+                                </p>
+                                <div class="blog-inner">
+                                    <h2><a href="">What is Handwritten Digit Recognition?</a></h2>
+                                    <p>
+                                        The handwritten digit recognition is the ability of computers to recognize human handwritten digits. It is a hard task for the machine because handwritten digits are not perfect and can be made with many different flavors. The handwritten digit recognition is the solution to this problem which uses the image of a digit and recognizes the digit present in the image.
+                                    </p>
+                                    <p>
+                                        In this article, we are going to implement a handwritten digit recognition app using the MNIST dataset. We will be using a special type of deep neural network that is Convolutional Neural Networks. In the end, we are going to build a GUI in which you can draw the digit and recognize it straight away.
+                                    </p>
+                                   
+                                    <h2><a href="">Prerequisites</a></h2>
+                                    <p>
+                                        The interesting Python project requires you to have basic knowledge of Python programming, deep learning with Keras library and the Tkinter library for building GUI.
+                                    </p>
+                                    <p>Install the necessary libraries for this project using this command:</p>
+                                    <div class="enlighter-default enlighter-v-standard enlighter-t-eclipse enlighter-l-generic enlighter-hover enlighter-linenumbers "><div class="enlighter-toolbar-top enlighter-toolbar"><div class="enlighter-btn enlighter-btn-raw"><div class="enlighter-tooltip">Plain text</div></div><div class="enlighter-btn enlighter-btn-copy"><div class="enlighter-tooltip">Copy to clipboard</div></div><div class="enlighter-btn enlighter-btn-window"><div class="enlighter-tooltip">Open code in new window</div></div><div class="enlighter-btn enlighter-btn-website"><div class="enlighter-tooltip">EnlighterJS 3 Syntax Highlighter</div></div></div><div class="enlighter-code"><div class="enlighter" style=""><div class=""><div><span class="enlighter-text">pip install numpy, tensorflow, keras, pillow,</span></div></div></div><div class="enlighter-raw">pip install numpy, tensorflow, keras, pillow,</div></div><div class="enlighter-toolbar-bottom enlighter-toolbar"></div></div>
+                                    <pre class="EnlighterJSRAW enlighter-origin" data-enlighter-language="null">pip install numpy, tensorflow, keras, pillow,</pre>
+                                    
+                                    
+                                    <h4><a href="">The MNIST dataset</a></h4>
+                                    <p>
+                                        This is probably one of the most popular datasets among machine learning and deep learning enthusiasts. 
+                                        The <a href="http://yann.lecun.com/exdb/mnist/">MNIST dataset</a> contains 60,000 training images of handwritten digits from zero to nine and 10,000 images for testing. So, the MNIST dataset has 10 different classes. 
+                                        The handwritten digits images are represented as a 28×28 matrix where each cell contains grayscale pixel value.
+
+                                    </p>
+                                    <p><a href="https://drive.google.com/open?id=1hJiOlxctFH3uL2yTqXU_1f6c0zLr8V_K">Download the full source code for the project</a></p>
+                                   
+                                   
+                                    <h2><a href="">Implementation</a></h2>
+                                    <p>
+                                        Below are the steps to implement the handwritten digit recognition project:
+
+
+                                    </p>
+                                    <h2><a href="">Image Segmentation Applications</a></h2>
+                                    <ul>
+                                        <li>
+                                            <h5><a href="">1•  Import the libraries and load the dataset</a></h5>
+                                            <p>
+                                                First, we are going to import all the modules that we are going to need for training our model. The Keras library already contains some datasets and MNIST is one of them. So we can easily import the dataset and start working with it. The mnist.load_data() method returns us the training data, its labels and also the testing data and its labels.
+                                            </p>
+                                            <div class="enlighter-default enlighter-v-standard enlighter-t-eclipse enlighter-l-generic enlighter-hover enlighter-linenumbers "><div class="enlighter-toolbar-top enlighter-toolbar"><div class="enlighter-btn enlighter-btn-raw"><div class="enlighter-tooltip">Plain text</div></div><div class="enlighter-btn enlighter-btn-copy"><div class="enlighter-tooltip">Copy to clipboard</div></div><div class="enlighter-btn enlighter-btn-window"><div class="enlighter-tooltip">Open code in new window</div></div><div class="enlighter-btn enlighter-btn-website"><div class="enlighter-tooltip">EnlighterJS 3 Syntax Highlighter</div></div></div><div class="enlighter-code"><div class="enlighter" style=""><div class=""><div><span class="enlighter-text">import keras</span></div></div><div class=""><div><span class="enlighter-text">from keras.</span><span class="enlighter-m3">datasets</span><span class="enlighter-text"> import mnist</span></div></div><div class=""><div><span class="enlighter-text">from keras.</span><span class="enlighter-m3">models</span><span class="enlighter-text"> import Sequential</span></div></div><div class=""><div><span class="enlighter-text">from keras.</span><span class="enlighter-m3">layers</span><span class="enlighter-text"> import Dense, Dropout, Flatten</span></div></div><div class=""><div><span class="enlighter-text">from keras.</span><span class="enlighter-m3">layers</span><span class="enlighter-text"> import Conv2D, MaxPooling2D</span></div></div><div class=""><div><span class="enlighter-text">from keras import backend as K</span></div></div><div class=""><div><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span><span class="enlighter-c0"># the data, split between train and test sets</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span><span class="enlighter-g1">(</span><span class="enlighter-text">x_train, y_train</span><span class="enlighter-g1">)</span><span class="enlighter-text">, </span><span class="enlighter-g1">(</span><span class="enlighter-text">x_test, y_test</span><span class="enlighter-g1">)</span><span class="enlighter-text"> = mnist.</span><span class="enlighter-m3">load_data</span><span class="enlighter-g1">()</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span><span class="enlighter-m0">print</span><span class="enlighter-g1">(</span><span class="enlighter-text">x_train.</span><span class="enlighter-m3">shape</span><span class="enlighter-text">, y_train.</span><span class="enlighter-m3">shape</span><span class="enlighter-g1">)</span></div></div></div><div class="enlighter-raw">import keras
+from keras.datasets import mnist
+from keras.models import Sequential
+from keras.layers import Dense, Dropout, Flatten
+from keras.layers import Conv2D, MaxPooling2D
+from keras import backend as K
+
+# the data, split between train and test sets
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
+
+print(x_train.shape, y_train.shape)</div></div><div class="enlighter-toolbar-bottom enlighter-toolbar"></div></div>
+<pre class="EnlighterJSRAW enlighter-origin" data-enlighter-language="null">import keras
+    from keras.datasets import mnist
+    from keras.models import Sequential
+    from keras.layers import Dense, Dropout, Flatten
+    from keras.layers import Conv2D, MaxPooling2D
+    from keras import backend as K
+    
+    # the data, split between train and test sets
+    (x_train, y_train), (x_test, y_test) = mnist.load_data()
+    
+    print(x_train.shape, y_train.shape)</pre>
+
+                                        </li>
+                                        <li>
+                                            <h5><a href="">2 • Preprocess the data</a></h5>
+                                            <p>
+                                                The image data cannot be fed directly into the model so we need to <b>perform some operations and process the data</b> to make it ready for our neural network. The dimension of the training data is (60000,28,28). The CNN model will require one more dimension so we reshape the matrix to shape (60000,28,28,1).
+                                            </p>
+                                            <div class="enlighter-default enlighter-v-standard enlighter-t-eclipse enlighter-l-generic enlighter-hover enlighter-linenumbers "><div class="enlighter-toolbar-top enlighter-toolbar"><div class="enlighter-btn enlighter-btn-raw"><div class="enlighter-tooltip">Plain text</div></div><div class="enlighter-btn enlighter-btn-copy"><div class="enlighter-tooltip">Copy to clipboard</div></div><div class="enlighter-btn enlighter-btn-window"><div class="enlighter-tooltip">Open code in new window</div></div><div class="enlighter-btn enlighter-btn-website"><div class="enlighter-tooltip">EnlighterJS 3 Syntax Highlighter</div></div></div><div class="enlighter-code"><div class="enlighter" style=""><div class=""><div><span class="enlighter-text">x_train = x_train.</span><span class="enlighter-m3">reshape</span><span class="enlighter-g1">(</span><span class="enlighter-text">x_train.</span><span class="enlighter-m3">shape</span><span class="enlighter-g1">[</span><span class="enlighter-n1">0</span><span class="enlighter-g1">]</span><span class="enlighter-text">, </span><span class="enlighter-n1">28</span><span class="enlighter-text">, </span><span class="enlighter-n1">28</span><span class="enlighter-text">, </span><span class="enlighter-n1">1</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">x_test = x_test.</span><span class="enlighter-m3">reshape</span><span class="enlighter-g1">(</span><span class="enlighter-text">x_test.</span><span class="enlighter-m3">shape</span><span class="enlighter-g1">[</span><span class="enlighter-n1">0</span><span class="enlighter-g1">]</span><span class="enlighter-text">, </span><span class="enlighter-n1">28</span><span class="enlighter-text">, </span><span class="enlighter-n1">28</span><span class="enlighter-text">, </span><span class="enlighter-n1">1</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">input_shape = </span><span class="enlighter-g1">(</span><span class="enlighter-n1">28</span><span class="enlighter-text">, </span><span class="enlighter-n1">28</span><span class="enlighter-text">, </span><span class="enlighter-n1">1</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span><span class="enlighter-c0"># convert class vectors to binary class matrices</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">y_train = keras.</span><span class="enlighter-m3">utils</span><span class="enlighter-text">.</span><span class="enlighter-m3">to_categorical</span><span class="enlighter-g1">(</span><span class="enlighter-text">y_train, num_classes</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">y_test = keras.</span><span class="enlighter-m3">utils</span><span class="enlighter-text">.</span><span class="enlighter-m3">to_categorical</span><span class="enlighter-g1">(</span><span class="enlighter-text">y_test, num_classes</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">x_train = x_train.</span><span class="enlighter-m3">astype</span><span class="enlighter-g1">(</span><span class="enlighter-s0">'float32'</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">x_test = x_test.</span><span class="enlighter-m3">astype</span><span class="enlighter-g1">(</span><span class="enlighter-s0">'float32'</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">x_train /= </span><span class="enlighter-n1">255</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">x_test /= </span><span class="enlighter-n1">255</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span><span class="enlighter-m0">print</span><span class="enlighter-g1">(</span><span class="enlighter-s0">'x_train shape:'</span><span class="enlighter-text">, x_train.</span><span class="enlighter-m3">shape</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span><span class="enlighter-m0">print</span><span class="enlighter-g1">(</span><span class="enlighter-text">x_train.</span><span class="enlighter-m3">shape</span><span class="enlighter-g1">[</span><span class="enlighter-n1">0</span><span class="enlighter-g1">]</span><span class="enlighter-text">, </span><span class="enlighter-s0">'train samples'</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span><span class="enlighter-m0">print</span><span class="enlighter-g1">(</span><span class="enlighter-text">x_test.</span><span class="enlighter-m3">shape</span><span class="enlighter-g1">[</span><span class="enlighter-n1">0</span><span class="enlighter-g1">]</span><span class="enlighter-text">, </span><span class="enlighter-s0">'test samples'</span><span class="enlighter-g1">)</span></div></div></div><div class="enlighter-raw">x_train = x_train.reshape(x_train.shape[0], 28, 28, 1)
+x_test = x_test.reshape(x_test.shape[0], 28, 28, 1)
+input_shape = (28, 28, 1)
+
+# convert class vectors to binary class matrices
+y_train = keras.utils.to_categorical(y_train, num_classes)
+y_test = keras.utils.to_categorical(y_test, num_classes)
+
+x_train = x_train.astype('float32')
+x_test = x_test.astype('float32')
+x_train /= 255
+x_test /= 255
+print('x_train shape:', x_train.shape)
+print(x_train.shape[0], 'train samples')
+print(x_test.shape[0], 'test samples')</div></div><div class="enlighter-toolbar-bottom enlighter-toolbar"></div></div>
+
+<pre class="EnlighterJSRAW enlighter-origin" data-enlighter-language="null">x_train = x_train.reshape(x_train.shape[0], 28, 28, 1)
+x_test = x_test.reshape(x_test.shape[0], 28, 28, 1)
+input_shape = (28, 28, 1)
+
+# convert class vectors to binary class matrices
+y_train = keras.utils.to_categorical(y_train, num_classes)
+y_test = keras.utils.to_categorical(y_test, num_classes)
+
+x_train = x_train.astype('float32')
+x_test = x_test.astype('float32')
+x_train /= 255
+x_test /= 255
+print('x_train shape:', x_train.shape)
+print(x_train.shape[0], 'train samples')
+print(x_test.shape[0], 'test samples')</pre>
+
+
+                                        </li>
+                                        <li>
+                                            <h5><a href="">3 • Create the model</a></h5>
+                                            
+                                            <p>
+                                                Now we will <b>create our CNN model</b> in Python data science project. A CNN model generally consists of convolutional and pooling layers. It works better for data that are represented as grid structures, this is the reason why CNN works well for image classification problems. The dropout layer is used to deactivate some of the neurons and while training, it reduces offer fitting of the model. We will then compile the model with the Adadelta optimizer.
+
+                                            </p>
+                                            <div class="enlighter-default enlighter-v-standard enlighter-t-eclipse enlighter-l-generic enlighter-hover enlighter-linenumbers "><div class="enlighter-toolbar-top enlighter-toolbar"><div class="enlighter-btn enlighter-btn-raw"><div class="enlighter-tooltip">Plain text</div></div><div class="enlighter-btn enlighter-btn-copy"><div class="enlighter-tooltip">Copy to clipboard</div></div><div class="enlighter-btn enlighter-btn-window"><div class="enlighter-tooltip">Open code in new window</div></div><div class="enlighter-btn enlighter-btn-website"><div class="enlighter-tooltip">EnlighterJS 3 Syntax Highlighter</div></div></div><div class="enlighter-code"><div class="enlighter" style=""><div class=""><div><span class="enlighter-text">batch_size = </span><span class="enlighter-n1">128</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">num_classes = </span><span class="enlighter-n1">10</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">epochs = </span><span class="enlighter-n1">10</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">model = </span><span class="enlighter-m0">Sequential</span><span class="enlighter-g1">()</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">model.</span><span class="enlighter-m3">add</span><span class="enlighter-g1">(</span><span class="enlighter-m0">Conv2D</span><span class="enlighter-g1">(</span><span class="enlighter-n1">32</span><span class="enlighter-text">, kernel_size=</span><span class="enlighter-g1">(</span><span class="enlighter-n1">3</span><span class="enlighter-text">, </span><span class="enlighter-n1">3</span><span class="enlighter-g1">)</span><span class="enlighter-text">,activation=</span><span class="enlighter-s0">'relu'</span><span class="enlighter-text">,input_shape=input_shape</span><span class="enlighter-g1">))</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">model.</span><span class="enlighter-m3">add</span><span class="enlighter-g1">(</span><span class="enlighter-m0">Conv2D</span><span class="enlighter-g1">(</span><span class="enlighter-n1">64</span><span class="enlighter-text">, </span><span class="enlighter-g1">(</span><span class="enlighter-n1">3</span><span class="enlighter-text">, </span><span class="enlighter-n1">3</span><span class="enlighter-g1">)</span><span class="enlighter-text">, activation=</span><span class="enlighter-s0">'relu'</span><span class="enlighter-g1">))</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">model.</span><span class="enlighter-m3">add</span><span class="enlighter-g1">(</span><span class="enlighter-m0">MaxPooling2D</span><span class="enlighter-g1">(</span><span class="enlighter-text">pool_size=</span><span class="enlighter-g1">(</span><span class="enlighter-n1">2</span><span class="enlighter-text">, </span><span class="enlighter-n1">2</span><span class="enlighter-g1">)))</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">model.</span><span class="enlighter-m3">add</span><span class="enlighter-g1">(</span><span class="enlighter-m0">Dropout</span><span class="enlighter-g1">(</span><span class="enlighter-n0">0.25</span><span class="enlighter-g1">))</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">model.</span><span class="enlighter-m3">add</span><span class="enlighter-g1">(</span><span class="enlighter-m0">Flatten</span><span class="enlighter-g1">())</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">model.</span><span class="enlighter-m3">add</span><span class="enlighter-g1">(</span><span class="enlighter-m0">Dense</span><span class="enlighter-g1">(</span><span class="enlighter-n1">256</span><span class="enlighter-text">, activation=</span><span class="enlighter-s0">'relu'</span><span class="enlighter-g1">))</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">model.</span><span class="enlighter-m3">add</span><span class="enlighter-g1">(</span><span class="enlighter-m0">Dropout</span><span class="enlighter-g1">(</span><span class="enlighter-n0">0.5</span><span class="enlighter-g1">))</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">model.</span><span class="enlighter-m3">add</span><span class="enlighter-g1">(</span><span class="enlighter-m0">Dense</span><span class="enlighter-g1">(</span><span class="enlighter-text">num_classes, activation=</span><span class="enlighter-s0">'softmax'</span><span class="enlighter-g1">))</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">model.</span><span class="enlighter-m3">compile</span><span class="enlighter-g1">(</span><span class="enlighter-text">loss=keras.</span><span class="enlighter-m3">losses</span><span class="enlighter-text">.</span><span class="enlighter-m3">categorical_crossentropy</span><span class="enlighter-text">,optimizer=keras.</span><span class="enlighter-m3">optimizers</span><span class="enlighter-text">.</span><span class="enlighter-m3">Adadelta</span><span class="enlighter-g1">()</span><span class="enlighter-text">,metrics=</span><span class="enlighter-g1">[</span><span class="enlighter-s0">'accuracy'</span><span class="enlighter-g1">])</span></div></div></div><div class="enlighter-raw">batch_size = 128
+num_classes = 10
+epochs = 10
+
+model = Sequential()
+model.add(Conv2D(32, kernel_size=(3, 3),activation='relu',input_shape=input_shape))
+model.add(Conv2D(64, (3, 3), activation='relu'))
+model.add(MaxPooling2D(pool_size=(2, 2)))
+model.add(Dropout(0.25))
+model.add(Flatten())
+model.add(Dense(256, activation='relu'))
+model.add(Dropout(0.5))
+model.add(Dense(num_classes, activation='softmax'))
+
+model.compile(loss=keras.losses.categorical_crossentropy,optimizer=keras.optimizers.Adadelta(),metrics=['accuracy'])</div></div><div class="enlighter-toolbar-bottom enlighter-toolbar"></div></div>
+<pre class="EnlighterJSRAW enlighter-origin" data-enlighter-language="null">batch_size = 128
+num_classes = 10
+epochs = 10
+
+model = Sequential()
+model.add(Conv2D(32, kernel_size=(3, 3),activation='relu',input_shape=input_shape))
+model.add(Conv2D(64, (3, 3), activation='relu'))
+model.add(MaxPooling2D(pool_size=(2, 2)))
+model.add(Dropout(0.25))
+model.add(Flatten())
+model.add(Dense(256, activation='relu'))
+model.add(Dropout(0.5))
+model.add(Dense(num_classes, activation='softmax'))
+
+model.compile(loss=keras.losses.categorical_crossentropy,optimizer=keras.optimizers.Adadelta(),metrics=['accuracy'])</pre>
+
+
+                                        </li>
+                                        <li>
+                                            <h5><a href="">4 • Train the model</a></h5>
+                                            
+                                            <p>
+                                                The <b>model.fit() function</b> of Keras will start the training of the model. <b>It takes the training data, validation data, epochs, and batch size.</b>
+                                            </p>
+                                            <p>It takes some time to train the model. After training, we save the weights and model definition in the ‘mnist.h5’ file.</p>
+                                            
+<div class="enlighter-default enlighter-v-standard enlighter-t-eclipse enlighter-l-generic enlighter-hover enlighter-linenumbers "><div class="enlighter-toolbar-top enlighter-toolbar"><div class="enlighter-btn enlighter-btn-raw"><div class="enlighter-tooltip">Plain text</div></div><div class="enlighter-btn enlighter-btn-copy"><div class="enlighter-tooltip">Copy to clipboard</div></div><div class="enlighter-btn enlighter-btn-window"><div class="enlighter-tooltip">Open code in new window</div></div><div class="enlighter-btn enlighter-btn-website"><div class="enlighter-tooltip">EnlighterJS 3 Syntax Highlighter</div></div></div><div class="enlighter-code"><div class="enlighter" style=""><div class=""><div><span class="enlighter-text">hist = model.</span><span class="enlighter-m3">fit</span><span class="enlighter-g1">(</span><span class="enlighter-text">x_train, y_train,batch_size=batch_size,epochs=epochs,verbose=</span><span class="enlighter-n1">1</span><span class="enlighter-text">,validation_data=</span><span class="enlighter-g1">(</span><span class="enlighter-text">x_test, y_test</span><span class="enlighter-g1">))</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span><span class="enlighter-m0">print</span><span class="enlighter-g1">(</span><span class="enlighter-s0">"The model has successfully trained"</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">model.</span><span class="enlighter-m3">save</span><span class="enlighter-g1">(</span><span class="enlighter-s0">'mnist.h5'</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span><span class="enlighter-m0">print</span><span class="enlighter-g1">(</span><span class="enlighter-s0">"Saving the model as mnist.h5"</span><span class="enlighter-g1">)</span></div></div></div><div class="enlighter-raw">hist = model.fit(x_train, y_train,batch_size=batch_size,epochs=epochs,verbose=1,validation_data=(x_test, y_test))
+    print("The model has successfully trained")
+    
+    model.save('mnist.h5')
+    print("Saving the model as mnist.h5")</div></div><div class="enlighter-toolbar-bottom enlighter-toolbar"></div></div>
+    
+    <pre class="EnlighterJSRAW enlighter-origin" data-enlighter-language="null">hist = model.fit(x_train, y_train,batch_size=batch_size,epochs=epochs,verbose=1,validation_data=(x_test, y_test))
+    print("The model has successfully trained")
+    
+    model.save('mnist.h5')
+    print("Saving the model as mnist.h5")</pre>
+                                        </li>
+                                        <li>
+                                            <h5><a href="">5 • Evaluate the model</a></h5>
+
+                                            <p>We have 10,000 images in our dataset which will be used to <b>evaluate how good our model works</b>. The testing data was not involved in the training of the data therefore, it is new data for our model. The MNIST dataset is well balanced so we can get around 99% accuracy.</p>
+                                            <div class="enlighter-default enlighter-v-standard enlighter-t-eclipse enlighter-l-generic enlighter-hover enlighter-linenumbers "><div class="enlighter-toolbar-top enlighter-toolbar"><div class="enlighter-btn enlighter-btn-raw"><div class="enlighter-tooltip">Plain text</div></div><div class="enlighter-btn enlighter-btn-copy"><div class="enlighter-tooltip">Copy to clipboard</div></div><div class="enlighter-btn enlighter-btn-window"><div class="enlighter-tooltip">Open code in new window</div></div><div class="enlighter-btn enlighter-btn-website"><div class="enlighter-tooltip">EnlighterJS 3 Syntax Highlighter</div></div></div><div class="enlighter-code"><div class="enlighter" style=""><div class=""><div><span class="enlighter-text">score = model.</span><span class="enlighter-m3">evaluate</span><span class="enlighter-g1">(</span><span class="enlighter-text">x_test, y_test, verbose=</span><span class="enlighter-n1">0</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span><span class="enlighter-m0">print</span><span class="enlighter-g1">(</span><span class="enlighter-s0">'Test loss:'</span><span class="enlighter-text">, score</span><span class="enlighter-g1">[</span><span class="enlighter-n1">0</span><span class="enlighter-g1">])</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span><span class="enlighter-m0">print</span><span class="enlighter-g1">(</span><span class="enlighter-s0">'Test accuracy:'</span><span class="enlighter-text">, score</span><span class="enlighter-g1">[</span><span class="enlighter-n1">1</span><span class="enlighter-g1">])</span></div></div></div><div class="enlighter-raw">score = model.evaluate(x_test, y_test, verbose=0)
+                                                print('Test loss:', score[0])
+                                                print('Test accuracy:', score[1])</div></div><div class="enlighter-toolbar-bottom enlighter-toolbar"></div></div>
+                                                
+                                                <pre class="EnlighterJSRAW enlighter-origin" data-enlighter-language="null">score = model.evaluate(x_test, y_test, verbose=0)
+                                                print('Test loss:', score[0])
+                                                print('Test accuracy:', score[1])</pre>
+                                                
+                                        </li>
+                                        <li>
+                                            <h5><a href="">6 • Create GUI to predict digits</a></h5>
+                                            <p>Now for the GUI, we have created a new file in which we <b>build an interactive window to draw digits on canvas</b> and with a button, we can recognize the digit. The Tkinter library comes in the Python standard library. We have created a function <b>predict_digit()</b> that takes the image as input and then uses the trained model to predict the digit.</p>
+                                            <p>Then we <b>create the App class</b> which is responsible for building the GUI for our app. We create a canvas where we can draw by capturing the mouse event and with a button, we trigger the predict_digit() function and display the results.</p>
+                                            <p>Here’s the full code for our gui_digit_recognizer.py file: </p>
+                                            <div class="enlighter-default enlighter-v-standard enlighter-t-eclipse enlighter-l-generic enlighter-hover enlighter-linenumbers "><div class="enlighter-toolbar-top enlighter-toolbar"><div class="enlighter-btn enlighter-btn-raw"><div class="enlighter-tooltip">Plain text</div></div><div class="enlighter-btn enlighter-btn-copy"><div class="enlighter-tooltip">Copy to clipboard</div></div><div class="enlighter-btn enlighter-btn-window"><div class="enlighter-tooltip">Open code in new window</div></div><div class="enlighter-btn enlighter-btn-website"><div class="enlighter-tooltip">EnlighterJS 3 Syntax Highlighter</div></div></div><div class="enlighter-code"><div class="enlighter" style=""><div class=""><div><span class="enlighter-text">from keras.</span><span class="enlighter-m3">models</span><span class="enlighter-text"> import load_model</span></div></div><div class=""><div><span class="enlighter-text">from tkinter import </span><span class="enlighter-g0">*</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">import tkinter as tk</span></div></div><div class=""><div><span class="enlighter-text">import win32gui</span></div></div><div class=""><div><span class="enlighter-text">from PIL import ImageGrab, Image</span></div></div><div class=""><div><span class="enlighter-text">import numpy as np</span></div></div><div class=""><div><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">model = </span><span class="enlighter-m0">load_model</span><span class="enlighter-g1">(</span><span class="enlighter-s0">'mnist.h5'</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span><span class="enlighter-k1">def</span><span class="enlighter-text"> </span><span class="enlighter-m0">predict_digit</span><span class="enlighter-g1">(</span><span class="enlighter-text">img</span><span class="enlighter-g1">)</span><span class="enlighter-text">:</span></div></div><div class=""><div><span class="enlighter-text">    </span><span class="enlighter-c0">#resize image to 28x28 pixels</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">    img = img.</span><span class="enlighter-m3">resize</span><span class="enlighter-g1">((</span><span class="enlighter-n1">28</span><span class="enlighter-text">,</span><span class="enlighter-n1">28</span><span class="enlighter-g1">))</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">    </span><span class="enlighter-c0">#convert rgb to grayscale</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">    img = img.</span><span class="enlighter-m3">convert</span><span class="enlighter-g1">(</span><span class="enlighter-s0">'L'</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">    img = np.</span><span class="enlighter-m3">array</span><span class="enlighter-g1">(</span><span class="enlighter-text">img</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">    </span><span class="enlighter-c0">#reshaping to support our model input and normalizing</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">    img = img.</span><span class="enlighter-m3">reshape</span><span class="enlighter-g1">(</span><span class="enlighter-n1">1</span><span class="enlighter-text">,</span><span class="enlighter-n1">28</span><span class="enlighter-text">,</span><span class="enlighter-n1">28</span><span class="enlighter-text">,</span><span class="enlighter-n1">1</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">    img = img/</span><span class="enlighter-n0">255.0</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">    </span><span class="enlighter-c0">#predicting the class</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">    res = model.</span><span class="enlighter-m3">predict</span><span class="enlighter-g1">([</span><span class="enlighter-text">img</span><span class="enlighter-g1">])[</span><span class="enlighter-n1">0</span><span class="enlighter-g1">]</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">    </span><span class="enlighter-k1">return</span><span class="enlighter-text"> np.</span><span class="enlighter-m3">argmax</span><span class="enlighter-g1">(</span><span class="enlighter-text">res</span><span class="enlighter-g1">)</span><span class="enlighter-text">, </span><span class="enlighter-m0">max</span><span class="enlighter-g1">(</span><span class="enlighter-text">res</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span><span class="enlighter-k1">class</span><span class="enlighter-text"> </span><span class="enlighter-m0">App</span><span class="enlighter-g1">(</span><span class="enlighter-text">tk.</span><span class="enlighter-m3">Tk</span><span class="enlighter-g1">)</span><span class="enlighter-text">:</span></div></div><div class=""><div><span class="enlighter-text">    </span><span class="enlighter-k1">def</span><span class="enlighter-text"> </span><span class="enlighter-m0">__init__</span><span class="enlighter-g1">(</span><span class="enlighter-text">self</span><span class="enlighter-g1">)</span><span class="enlighter-text">:</span></div></div><div class=""><div><span class="enlighter-text">        tk.</span><span class="enlighter-m3">Tk</span><span class="enlighter-text">.</span><span class="enlighter-m3">__init__</span><span class="enlighter-g1">(</span><span class="enlighter-text">self</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">        self.</span><span class="enlighter-m3">x</span><span class="enlighter-text"> = self.</span><span class="enlighter-m3">y</span><span class="enlighter-text"> = </span><span class="enlighter-n1">0</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">        </span><span class="enlighter-c0"># Creating elements</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">        self.</span><span class="enlighter-m3">canvas</span><span class="enlighter-text"> = tk.</span><span class="enlighter-m3">Canvas</span><span class="enlighter-g1">(</span><span class="enlighter-text">self, width=</span><span class="enlighter-n1">300</span><span class="enlighter-text">, height=</span><span class="enlighter-n1">300</span><span class="enlighter-text">, bg = </span><span class="enlighter-s0">"white"</span><span class="enlighter-text">, cursor=</span><span class="enlighter-s0">"cross"</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">        self.</span><span class="enlighter-m3">label</span><span class="enlighter-text"> = tk.</span><span class="enlighter-m3">Label</span><span class="enlighter-g1">(</span><span class="enlighter-text">self, text=</span><span class="enlighter-s0">"Thinking.."</span><span class="enlighter-text">, font=</span><span class="enlighter-g1">(</span><span class="enlighter-s0">"Helvetica"</span><span class="enlighter-text">, </span><span class="enlighter-n1">48</span><span class="enlighter-g1">))</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">        self.</span><span class="enlighter-m3">classify_btn</span><span class="enlighter-text"> = tk.</span><span class="enlighter-m3">Button</span><span class="enlighter-g1">(</span><span class="enlighter-text">self, text = </span><span class="enlighter-s0">"Recognise"</span><span class="enlighter-text">, command =         self.</span><span class="enlighter-m3">classify_handwriting</span><span class="enlighter-g1">)</span><span class="enlighter-text"> </span></div></div><div class=""><div><span class="enlighter-text">        self.</span><span class="enlighter-m3">button_clear</span><span class="enlighter-text"> = tk.</span><span class="enlighter-m3">Button</span><span class="enlighter-g1">(</span><span class="enlighter-text">self, text = </span><span class="enlighter-s0">"Clear"</span><span class="enlighter-text">, command = self.</span><span class="enlighter-m3">clear_all</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">        </span><span class="enlighter-c0"># Grid structure</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">        self.</span><span class="enlighter-m3">canvas</span><span class="enlighter-text">.</span><span class="enlighter-m3">grid</span><span class="enlighter-g1">(</span><span class="enlighter-text">row=</span><span class="enlighter-n1">0</span><span class="enlighter-text">, column=</span><span class="enlighter-n1">0</span><span class="enlighter-text">, pady=</span><span class="enlighter-n1">2</span><span class="enlighter-text">, sticky=W, </span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">        self.</span><span class="enlighter-m3">label</span><span class="enlighter-text">.</span><span class="enlighter-m3">grid</span><span class="enlighter-g1">(</span><span class="enlighter-text">row=</span><span class="enlighter-n1">0</span><span class="enlighter-text">, column=</span><span class="enlighter-n1">1</span><span class="enlighter-text">,pady=</span><span class="enlighter-n1">2</span><span class="enlighter-text">, padx=</span><span class="enlighter-n1">2</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">        self.</span><span class="enlighter-m3">classify_btn</span><span class="enlighter-text">.</span><span class="enlighter-m3">grid</span><span class="enlighter-g1">(</span><span class="enlighter-text">row=</span><span class="enlighter-n1">1</span><span class="enlighter-text">, column=</span><span class="enlighter-n1">1</span><span class="enlighter-text">, pady=</span><span class="enlighter-n1">2</span><span class="enlighter-text">, padx=</span><span class="enlighter-n1">2</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">        self.</span><span class="enlighter-m3">button_clear</span><span class="enlighter-text">.</span><span class="enlighter-m3">grid</span><span class="enlighter-g1">(</span><span class="enlighter-text">row=</span><span class="enlighter-n1">1</span><span class="enlighter-text">, column=</span><span class="enlighter-n1">0</span><span class="enlighter-text">, pady=</span><span class="enlighter-n1">2</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">        </span><span class="enlighter-c0">#self.canvas.bind("&lt;Motion&gt;", self.start_pos)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">        self.</span><span class="enlighter-m3">canvas</span><span class="enlighter-text">.</span><span class="enlighter-m3">bind</span><span class="enlighter-g1">(</span><span class="enlighter-s0">"&lt;B1-Motion&gt;"</span><span class="enlighter-text">, self.</span><span class="enlighter-m3">draw_lines</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">    </span><span class="enlighter-k1">def</span><span class="enlighter-text"> </span><span class="enlighter-m0">clear_all</span><span class="enlighter-g1">(</span><span class="enlighter-text">self</span><span class="enlighter-g1">)</span><span class="enlighter-text">:</span></div></div><div class=""><div><span class="enlighter-text">        self.</span><span class="enlighter-m3">canvas</span><span class="enlighter-text">.</span><span class="enlighter-m3">delete</span><span class="enlighter-g1">(</span><span class="enlighter-s0">"all"</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">    </span><span class="enlighter-k1">def</span><span class="enlighter-text"> </span><span class="enlighter-m0">classify_handwriting</span><span class="enlighter-g1">(</span><span class="enlighter-text">self</span><span class="enlighter-g1">)</span><span class="enlighter-text">:</span></div></div><div class=""><div><span class="enlighter-text">        HWND = self.</span><span class="enlighter-m3">canvas</span><span class="enlighter-text">.</span><span class="enlighter-m3">winfo_id</span><span class="enlighter-g1">()</span><span class="enlighter-text"> </span><span class="enlighter-c0"># get the handle of the canvas</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">        rect = win32gui.</span><span class="enlighter-m3">GetWindowRect</span><span class="enlighter-g1">(</span><span class="enlighter-text">HWND</span><span class="enlighter-g1">)</span><span class="enlighter-text"> </span><span class="enlighter-c0"># get the coordinate of the canvas</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">        im = ImageGrab.</span><span class="enlighter-m3">grab</span><span class="enlighter-g1">(</span><span class="enlighter-text">rect</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">        digit, acc = </span><span class="enlighter-m0">predict_digit</span><span class="enlighter-g1">(</span><span class="enlighter-text">im</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">        self.</span><span class="enlighter-m3">label</span><span class="enlighter-text">.</span><span class="enlighter-m3">configure</span><span class="enlighter-g1">(</span><span class="enlighter-text">text= </span><span class="enlighter-m0">str</span><span class="enlighter-g1">(</span><span class="enlighter-text">digit</span><span class="enlighter-g1">)</span><span class="enlighter-text">+</span><span class="enlighter-s0">', '</span><span class="enlighter-text">+ </span><span class="enlighter-m0">str</span><span class="enlighter-g1">(</span><span class="enlighter-m0">int</span><span class="enlighter-g1">(</span><span class="enlighter-text">acc*</span><span class="enlighter-n1">100</span><span class="enlighter-g1">))</span><span class="enlighter-text">+</span><span class="enlighter-s0">'%'</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">    </span><span class="enlighter-k1">def</span><span class="enlighter-text"> </span><span class="enlighter-m0">draw_lines</span><span class="enlighter-g1">(</span><span class="enlighter-text">self, event</span><span class="enlighter-g1">)</span><span class="enlighter-text">:</span></div></div><div class=""><div><span class="enlighter-text">        self.</span><span class="enlighter-m3">x</span><span class="enlighter-text"> = event.</span><span class="enlighter-m3">x</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">        self.</span><span class="enlighter-m3">y</span><span class="enlighter-text"> = event.</span><span class="enlighter-m3">y</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">        r=</span><span class="enlighter-n1">8</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">        self.</span><span class="enlighter-m3">canvas</span><span class="enlighter-text">.</span><span class="enlighter-m3">create_oval</span><span class="enlighter-g1">(</span><span class="enlighter-text">self.</span><span class="enlighter-m3">x</span><span class="enlighter-text">-r, self.</span><span class="enlighter-m3">y</span><span class="enlighter-text">-r, self.</span><span class="enlighter-m3">x</span><span class="enlighter-text"> + r, self.</span><span class="enlighter-m3">y</span><span class="enlighter-text"> + r, fill=</span><span class="enlighter-s0">'black'</span><span class="enlighter-g1">)</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text">app = </span><span class="enlighter-m0">App</span><span class="enlighter-g1">()</span><span class="enlighter-text"></span></div></div><div class=""><div><span class="enlighter-text"></span><span class="enlighter-m0">mainloop</span><span class="enlighter-g1">()</span></div></div></div><div class="enlighter-raw">from keras.models import load_model
+from tkinter import *
+import tkinter as tk
+import win32gui
+from PIL import ImageGrab, Image
+import numpy as np
+
+model = load_model('mnist.h5')
+
+def predict_digit(img):
+    #resize image to 28x28 pixels
+    img = img.resize((28,28))
+    #convert rgb to grayscale
+    img = img.convert('L')
+    img = np.array(img)
+    #reshaping to support our model input and normalizing
+    img = img.reshape(1,28,28,1)
+    img = img/255.0
+    #predicting the class
+    res = model.predict([img])[0]
+    return np.argmax(res), max(res)
+
+class App(tk.Tk):
+    def __init__(self):
+        tk.Tk.__init__(self)
+
+        self.x = self.y = 0
+
+        # Creating elements
+        self.canvas = tk.Canvas(self, width=300, height=300, bg = "white", cursor="cross")
+        self.label = tk.Label(self, text="Thinking..", font=("Helvetica", 48))
+        self.classify_btn = tk.Button(self, text = "Recognise", command =         self.classify_handwriting) 
+        self.button_clear = tk.Button(self, text = "Clear", command = self.clear_all)
+
+        # Grid structure
+        self.canvas.grid(row=0, column=0, pady=2, sticky=W, )
+        self.label.grid(row=0, column=1,pady=2, padx=2)
+        self.classify_btn.grid(row=1, column=1, pady=2, padx=2)
+        self.button_clear.grid(row=1, column=0, pady=2)
+
+        #self.canvas.bind("&lt;Motion&gt;", self.start_pos)
+        self.canvas.bind("&lt;B1-Motion&gt;", self.draw_lines)
+
+    def clear_all(self):
+        self.canvas.delete("all")
+
+    def classify_handwriting(self):
+        HWND = self.canvas.winfo_id() # get the handle of the canvas
+        rect = win32gui.GetWindowRect(HWND) # get the coordinate of the canvas
+        im = ImageGrab.grab(rect)
+
+        digit, acc = predict_digit(im)
+        self.label.configure(text= str(digit)+', '+ str(int(acc*100))+'%')
+
+    def draw_lines(self, event):
+        self.x = event.x
+        self.y = event.y
+        r=8
+        self.canvas.create_oval(self.x-r, self.y-r, self.x + r, self.y + r, fill='black')
+
+app = App()
+mainloop()</div></div><div class="enlighter-toolbar-bottom enlighter-toolbar"></div></div>
+
+<pre class="EnlighterJSRAW enlighter-origin" data-enlighter-language="null">from keras.models import load_model
+from tkinter import *
+import tkinter as tk
+import win32gui
+from PIL import ImageGrab, Image
+import numpy as np
+
+model = load_model('mnist.h5')
+
+def predict_digit(img):
+    #resize image to 28x28 pixels
+    img = img.resize((28,28))
+    #convert rgb to grayscale
+    img = img.convert('L')
+    img = np.array(img)
+    #reshaping to support our model input and normalizing
+    img = img.reshape(1,28,28,1)
+    img = img/255.0
+    #predicting the class
+    res = model.predict([img])[0]
+    return np.argmax(res), max(res)
+
+class App(tk.Tk):
+    def __init__(self):
+        tk.Tk.__init__(self)
+
+        self.x = self.y = 0
+
+        # Creating elements
+        self.canvas = tk.Canvas(self, width=300, height=300, bg = "white", cursor="cross")
+        self.label = tk.Label(self, text="Thinking..", font=("Helvetica", 48))
+        self.classify_btn = tk.Button(self, text = "Recognise", command =         self.classify_handwriting) 
+        self.button_clear = tk.Button(self, text = "Clear", command = self.clear_all)
+
+        # Grid structure
+        self.canvas.grid(row=0, column=0, pady=2, sticky=W, )
+        self.label.grid(row=0, column=1,pady=2, padx=2)
+        self.classify_btn.grid(row=1, column=1, pady=2, padx=2)
+        self.button_clear.grid(row=1, column=0, pady=2)
+
+        #self.canvas.bind("&lt;Motion&gt;", self.start_pos)
+        self.canvas.bind("&lt;B1-Motion&gt;", self.draw_lines)
+
+    def clear_all(self):
+        self.canvas.delete("all")
+
+    def classify_handwriting(self):
+        HWND = self.canvas.winfo_id() # get the handle of the canvas
+        rect = win32gui.GetWindowRect(HWND) # get the coordinate of the canvas
+        im = ImageGrab.grab(rect)
+
+        digit, acc = predict_digit(im)
+        self.label.configure(text= str(digit)+', '+ str(int(acc*100))+'%')
+
+    def draw_lines(self, event):
+        self.x = event.x
+        self.y = event.y
+        r=8
+        self.canvas.create_oval(self.x-r, self.y-r, self.x + r, self.y + r, fill='black')
+
+app = App()
+mainloop()</pre>
+
+                                        </li>
+                                       
+                                    </ul>
+                                    <h2><a href="">Screenshots</a></h2>
+                                    <img src="../assets/projectAssets/images/python-machine-learning-project-output-as-number-2.webp" alt=""class="img-fluid">
+                                    <img src="../assets/projectAssets/images/python-machine-learning-project-output-as-number-5.webp" alt=""class="img-fluid">
+                                    <img src="../assets/projectAssets/images/python-project-output-as-number-6.webp" alt=""class="img-fluid">
+
+                                   
+
+                                <h3>Summary</h3>
+                               <p>In this article, we have successfully built a Python deep learning project on handwritten digit recognition app. We have built and trained the Convolutional neural network which is very effective for image classification purposes. Later on, we build the GUI where we draw a digit on the canvas then we classify the digit and show the results.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <div class="row mh-related-post">
+                                <div class="mh-blog-next-prev-post col-md-6 text-left">
+                                    <a href=""><i class="fa fa-angle-left"></i> Previous</a>
+                                </div>
+                                <div class="mh-blog-next-prev-post col-md-6 text-right">
+                                    <a href="./ImageSegmentationwithMachineLearning.html">Next <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Comments-->
+                        <div class="col-sm-12 d-none">
+                            <div class="comments col-sm-12">
+                                <div class="single-comment media">
+                                    <img src="../assets/images/b-author.jpg" alt="" class="img-fluid round-image">
+                                    <div class="col-md-10 col-sm-10 comment-details media-body">
+                                        <h4> Jhone doe </h4>
+                                        <span>Feb 29, 2015</span>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore
+                                            et dolore magna aliqua. consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="single-comment media col-sm-10 pull-right">
+                                    <img src="../assets/images/b-author.jpg" alt="" class="img-fluid round-image">
+                                    <div class="col-md-10 col-sm-10 comment-details media-body">
+                                        <h4> Hasin Bari </h4>
+                                        <span>Feb 29, 2015</span>
+                                        <p>Thank You ! I Love it </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="blog-form-inner col-sm-12">
+                                <div class="post-comment-title">
+                                    <h3>Post your comment</h3>
+                                </div>
+                                <form id="contact-form" class="single-form comment-form wow fadeIn" data-wow-offset="30"
+                                    data-wow-duration="1.5s" data-wow-delay="0.15s">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <input name="name" class="contact-name form-control" id="contact-name"
+                                                type="text" placeholder="Name" required="">
+                                        </div>
+
+                                        <div class="col-sm-12">
+                                            <input name="name" class="contact-subject form-control" id="contact-email"
+                                                type="text" placeholder="Your Website">
+                                        </div>
+
+                                        <div class="col-sm-12">
+                                            <input name="name" class="contact-subject form-control" id="contact-email"
+                                                type="email" placeholder="Your Email" required="">
+                                        </div>
+
+                                        <div class="col-sm-12">
+                                            <textarea class="contact-message" id="message" rows="6"
+                                                placeholder="Your Message" required></textarea>
+                                        </div>
+
+                                        <!-- Subject Button -->
+                                        <div class="btn-form col-sm-12">
+                                            <button class="btn btn-fill"> Post Comment </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- SIDEBAR -->
+                <div class="col-md-4">
+                    <div class="mh-blog-sidebar">
+                        <div class="sidebar-item mh-author-info">
+                            <div class="mh-author-img">
+                                <div class="img-border">
+                                    <img src="../assets/images/b-author.jpg" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <h2>Stanley Evuru</h2>
+                            <h4>Software Engineer</h4>
+                            <p>
+                                Stealthily solving problems, weaving tales of code and innovation.
+                                let's make amazing stuff.
+                            </p>
+                            <ul class="social-icon">
+                                <!-- <li><a href=""><i class="fa fa-facebook"></i></a></li> -->
+                                <li><a href="https://x.com/_espac_"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://github.com/evuru"><i class="fa fa-github"></i></a></li>
+                                <li><a href="https://evurustanley.rf.gd/"><i class="fa fa-dribbble"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="sidebar-item mh-blog-category">
+                            <h3>Category</h3>
+                            <ul>
+                                <li><a href="">Software</a></li>
+                                <li><a href="">AI</a></li>
+                                <li><a href="">Python</a></li>
+                                <li><a href="">Deep Learning</a></li>
+                            </ul>
+                        </div>
+                        <div class="sidebar-item mh-blog-category">
+                            <h3>Archive</h3>
+                            <ul>
+                                <li><a href="./HandwrittenDigitRecognition.html" class="text-warning"><b>• </b>Handwritten Digit Recognition</a></li>
+                                <li><a href="./ImageSegmentationwithMachineLearning.html"><b>• </b>Image Segmentation with Machine Learning</a></li>
+                                <li><a href="./TextSummarizationUsingMachineLearning.html"><b>• </b>Text Summarization using Machine Learning</a></li>
+                                <li><a href="./GenderRecognitionByVoice.html"><b>• </b>Gender Recognition By Voice Using Python</a></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="sidebar-item mh-blog-insta d-none">
+                            <h3>Instagram</h3>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <img src="../assets/images/b-1.png" alt="" class="img-fluid">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="../assets/images/b-1.png" alt="" class="img-fluid">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="../assets/images/b-1.png" alt="" class="img-fluid">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="../assets/images/b-1.png" alt="" class="img-fluid">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="../assets/images/b-1.png" alt="" class="img-fluid">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="../assets/images/b-1.png" alt="" class="img-fluid">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="mh-footer" id="mh-contact">
+		<div class="map-image image-bg">
+			<div class="container">
+				<div class="row section-separator">
+					<div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+						<h3>Contact Me</h3>
+					</div>
+					<div class="col-sm-12 mh-footer-address">
+						<div class="row">
+							<div class="col-sm-12 col-md-4">
+								<a href="	https://calendly.com/evurustanley/scheduled-meeting">
+									<div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp"
+										data-wow-duration="0.8s" data-wow-delay="0.3s">
+										<div class="each-icon">
+											<i class="fa fa-calendar"></i>
+										</div>
+										<div class="each-info">
+											<a href="	https://calendly.com/evurustanley/scheduled-meeting">
+												<h6>Plan meeting</h6>
+											</a>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-4">
+						<a href="mailto:evurustanle@gmail.com">
+							<div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s"
+								data-wow-delay="0.5s">
+								<div class="each-icon">
+									<i class="fa fa-envelope-o"></i>
+								</div>
+								<div class="each-info">
+									<a href="mailto:evurustanle@gmail.com"><b>evurustanle@gmail.com</b></a><br>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-sm-12 col-md-4">
+						<a href="https://www.linkedin.com/in/Stanley-Evuru/">
+							<div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s"
+								data-wow-delay="0.7s">
+								<div class="each-icon">
+									<i class="fa fa-linkedin-square"></i>
+
+								</div>
+								<div class="each-info">
+									<a href="https://www.linkedin.com/in/Stanley-Evuru/">
+										<h6>Connect</h6>
+									</a>
+								</div>
+
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+    </footer>
+
+
+
+
+    <!--
+    ==============
+    * JS Files *
+    ==============
+    -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- popper -->
+    <script src="../assets/plugins/js/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="../assets/plugins/js/bootstrap.min.js"></script>
+    <!-- owl carousel -->
+    <script src="../assets/plugins/js/owl.carousel.js"></script>
+    <!-- validator -->
+    <script src="../assets/plugins/js/validator.min.js"></script>
+    <!-- wow -->
+    <script src="../assets/plugins/js/wow.min.js"></script>
+    <!-- mixin js-->
+    <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+    <!-- circle progress-->
+    <script src="../assets/plugins/js/circle-progress.js"></script>
+    <!-- jquery nav -->
+    <script src="../assets/plugins/js/jquery.nav.js"></script>
+    <!-- Fancybox js-->
+    <script src="../assets/plugins/js/jquery.fancybox.min.js"></script>
+    <!-- Map api -->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyCRP2E3BhaVKYs7BvNytBNumU0MBmjhhxc"></script>
+    <!-- isotope js-->
+    <script src="../assets/plugins/js/isotope.pkgd.js"></script>
+    <script src="../assets/plugins/js/packery-mode.pkgd.js"></script>
+    <!-- Custom Scripts-->
+    <script src="../assets/js/map-init.js"></script>
+    <script src="../assets/js/custom-scripts.js"></script>
+
+
+
+
+
+
+
+     <!-- EnlighterJS -->
+     <script type="text/javascript" src="../assets/plugins/codeenlight/dist/enlighterjs.min.js"></script>
+
+     <!-- Init Code -->
+     <script type="text/javascript">
+         // - highlight all pre + code tags (CSS3 selectors)
+         // - use javascript as default language
+         // - use theme "enlighter" as default theme
+         // - replace tabs with 2 spaces
+         EnlighterJS.init('pre', 'code', {
+                 language : 'javascript',
+                 theme: 'godzilla',
+                 indent : 2
+         });
+     </script>
+</body>
+
+</html>
